@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <title>
+
+    </title>
+    <meta name="author" content="Neil Robinson">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/css/tachyons.min.css">
+  </head>
+  <body>
+    <nav class="avenir dt w-100 border-box bb b--light-green bw1 pa3 ph5-ns">
+      <a class="dtc v-mid light-green link dim w-25" href="#" title="Home">
+        Home
+      </a>
+      <div class="dtc v-mid w-75 tr">
+        <a class="link dim dark-green f6 f5-ns dib mr3 mr4-ns" href="#" title="Categories">Categories</a>
+        <a class="link dim dark-green f6 f5-ns dib mr3 mr4-ns" href="#" title="Time Series">Time Series</a>
+        <a class="link dim dark-green f6 f5-ns dib" href="#" title="Contact">Upload Picture</a>
+      </div>
+    </nav>
+
+    <article class="pa3 pa5-ns">
+      <h1 class="avenir f2 f1-m f-headline-l">Upload Photos</h1>
+    </article>
+
+    <form class="pv0 ph3 ph5-ns" action="">
+        <fieldset class="ba b--transparent ph0 mh0">
+            <legend class="avenir fw6">Upload a picture:</legend>
+
+            <div class="mt3">
+                <label class="avenir fw4 lh-copy f6" for="Picturefile">Select a Photo:</label>
+                <input type="file" id="Picturefile" name="Picturefile" required class="avenir fw4 lh-copy f6">
+            </div>
+            
+            <div class="mt3">
+                <label class="avenir db fw4 lh-copy f6" for="Picture-Date">Picture Date:</label>
+                <input type="date" id="picture-date" name="Picture-date">
+            </div>
+
+            <div class="mt3">
+                <label class="avenir db fw4 lh-copy f6" for="Picture-description">Picture Description:</label>
+                <textarea name="picture-description" rows="5" cols="60"></textarea>
+            </div>
+
+
+            <div class="mt3">
+                <input type="submit" value="Upload Photo" class="avenir db fw4 lh-copy f6">
+            </div>
+            
+        </fieldset>
+    </form>
+
+  
+
+
+  </body>
+</html>
